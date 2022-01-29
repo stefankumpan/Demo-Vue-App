@@ -1,0 +1,34 @@
+:root {
+  /* --primary: #35485d; */
+  /* --secondary: #3cb985; */
+  --primary: #3cb985;
+  --secondary: #35485d;
+  --white: #f2ffff;
+  --box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  --default-border-radius: 1rem;
+  --default-border: 1px solid rgba(53, 72, 93, 0.4);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+}
+
+body,
+html {
+  margin: 0;
+}
+
+.title {
+  text-align: center;
+}
+
+.v-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
